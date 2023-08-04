@@ -1,0 +1,35 @@
+#about {
+  margin-top: -50px;
+}
+
+#about p {
+  margin-bottom: 16px;
+}
+
+.view__resume {
+  display: inline-block;
+}
+
+.view__resume a {
+  color: var(--font-color-primary);
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  font-weight: 600;
+  border: 1px solid var(--primary-color);
+  padding: 5px 15px;
+  border-radius: 3px;
+}
+
+.view__resume span {
+  position: relative;
+}
+
+.view__resume i {
+  font-size: 12px;
+  transition: transform 0.2s;
+}
+
+.view__resume a:hover i {
+  transform: translateX(3px);
+}

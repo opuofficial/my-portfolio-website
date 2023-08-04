@@ -1,0 +1,114 @@
+#projects {
+}
+
+#projects .project__card {
+  padding: 20px 30px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  transition: background-color 0.2s, opacity 0.2s;
+}
+
+#projects .project__card:hover {
+  background: rgb(20, 32, 61);
+}
+
+#projects .project__card .project__info {
+  display: flex;
+  gap: 15px;
+}
+
+#projects .project__card.inactive {
+  opacity: 0.7;
+}
+
+#projects img {
+  width: 100%;
+  border-radius: 3px;
+}
+
+#projects .project__card .project__title {
+  color: var(--font-color-primary);
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+#projects .project__card .project__title.small__screen {
+  display: none;
+}
+
+#projects .project__card .project__info .project__description {
+  font-size: 14px;
+  flex: 2.5;
+}
+
+#projects .project__card .project__technology {
+  margin-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+#projects .project__card .project__technology span {
+  font-size: 12px;
+  background: var(--primary-color);
+  border-radius: 30px;
+  color: var(--font-color-primary);
+  padding: 0 7px;
+}
+
+#projects .project__card .project__preview {
+  flex: 1;
+}
+
+#projects .project__card .project__links {
+  margin-top: 15px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 5px;
+}
+
+#projects .project__card .project__links a {
+  border-bottom: 1px solid var(--primary-color);
+  border-right: 1px solid var(--primary-color);
+  color: var(--font-color-primary);
+  margin-bottom: 5px;
+  font-weight: 600;
+  padding: 5px 15px;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+@media only screen and (max-width: 600px) {
+  #projects .project__card .project__info {
+    flex-direction: column-reverse;
+  }
+
+  #projects .project__card .project__title.small__screen {
+    display: block;
+  }
+
+  #projects .project__card .project__title.large__screen {
+    display: none;
+  }
+
+  #projects .project__card {
+    padding: 25px 15px;
+  }
+}
+
+@media (pointer: coarse) {
+  #projects .project__card:hover {
+    background: initial;
+  }
+
+  #projects .project__card.inactive {
+    opacity: initial;
+  }
+}
+
+@media (max-width: 600px) and (pointer: coarse) {
+  #projects .project__card {
+    padding: 25px 10px;
+  }
+}

@@ -1,0 +1,19 @@
+.custom__cursor {
+  width: 20px;
+  height: 20px;
+  background: var(--font-color-secondary);
+  opacity: 0.3;
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+/* Styles for touch devices */
+@media (pointer: coarse) {
+  .custom__cursor {
+    display: none;
+  }
+}

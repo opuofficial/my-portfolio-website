@@ -1,0 +1,26 @@
+#skills {
+}
+
+#skills .skills__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+#skills .category__name {
+  color: var(--font-color-primary);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+#skills .skill i {
+  margin-right: 5px;
+  color: var(--primary-color);
+}
+
+@media only screen and (max-width: 350px) {
+  #skills .skills__container {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}

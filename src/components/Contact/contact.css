@@ -1,0 +1,34 @@
+#contact {
+  padding: 35px 0;
+}
+
+#contact .contact__info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 1.3rem;
+}
+
+#contact .email__icon {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  background: var(--primary-color);
+}
+
+@media only screen and (max-width: 450px) {
+  #contact .contact__info {
+    gap: 10px;
+    font-size: 1.1rem;
+  }
+
+  #contact .email__icon {
+    width: 30px;
+    height: 30px;
+    font-size: 1rem;
+  }
+}
