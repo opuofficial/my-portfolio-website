@@ -12,7 +12,7 @@ header h1 {
 }
 
 header h4 {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   color: var(--font-color-primary);
 }
 
@@ -129,6 +129,10 @@ header .social__links a:hover {
 @media only screen and (max-width: 550px) {
   header h1 {
     font-size: 40px;
+  }
+
+  header h4 {
+    font-size: 20px;
   }
 
   header p {
