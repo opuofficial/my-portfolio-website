@@ -35,7 +35,7 @@ function Header() {
     <header>
       <div className="personal__info">
         <h1>Opu Das</h1>
-        <h4>Junior MERN Stack Developer</h4>
+        <h4>Frontend Developer</h4>
         <p>
           Passionate about crafting user-friendly and visually appealing web
           experiences.
