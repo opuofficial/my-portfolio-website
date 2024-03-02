@@ -1,19 +1,22 @@
 const skillsData = [
   {
     category: "Frontend",
-    skills: ["HTML", "CSS", "Bootstrap", "JavaScript", "React", "Ant Design"],
+    skills: [
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "JavaScript (ES6+)",
+      "React",
+      "Material UI",
+    ],
   },
   {
-    category: "Backend",
-    skills: ["Node.js", "Express.js", "MongoDB"],
+    category: "Familiar With",
+    skills: ["TypeScript", "Redux Toolkit", "Node.js", "Express.js", "MongoDB"],
   },
   {
     category: "Other Tools",
     skills: ["Git", "RESTful APIs", "JSON", "Postman"],
-  },
-  {
-    category: "Familiar With",
-    skills: ["TypeScript", "SASS", "Redux Toolkit", "React Query"],
   },
 ];
 
