@@ -22,7 +22,7 @@ function About() {
 
       <div className="view__resume">
         <a
-          href="https://drive.google.com/file/d/1p_OSWn6cZM-6LIMcDPwhswiNo3USIMym/view?usp=sharing"
+          href="https://drive.google.com/file/d/1l-X8DpHhQ0GIfZDZvUNtpyyQTKPs9fYu/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
         >
