@@ -9,8 +9,8 @@ function Contact() {
         <div className="email__icon">
           <i className="fa-regular fa-envelope"></i>
         </div>
-        <a href="mailto:opuofficial24@gmail.com" className="email__address">
-          opuofficial24@gmail.com
+        <a href="mailto:devopu17@gmail.com" className="email__address">
+          devopu17@gmail.com
         </a>
       </div>
     </section>
