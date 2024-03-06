@@ -63,7 +63,7 @@ function Header() {
           <i className="fa-brands fa-github"></i>
         </a>
         <a
-          href="mailto:opuofficial24@gmail.com"
+          href="mailto:devopu17@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
         >
