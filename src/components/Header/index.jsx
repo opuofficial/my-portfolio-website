@@ -56,7 +56,7 @@ function Header() {
 
       <div className="social__links">
         <a
-          href="https://github.com/opuofficial?tab=repositories"
+          href="https://github.com/opuofficial"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -68,6 +68,13 @@ function Header() {
           rel="noopener noreferrer"
         >
           <i className="fa-solid fa-envelope"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/opudas/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fa-brands fa-linkedin"></i>
         </a>
       </div>
     </header>
